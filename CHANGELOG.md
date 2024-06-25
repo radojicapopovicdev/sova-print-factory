@@ -1,8 +1,14 @@
 # Changelog
 
-All notable changes to the "Sova Print Factory" project will be documented in this file.
+All notable changes to the server part of this project will be documented in this file.
 
-## [0.1.0] - 2024-06-25
+The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
+
+## [0.0.1] - 25-06-2024
+### Added
+- Project sctructure | Basic structure for components folder
+
+## [0.0.0] - 25-06-2024
 ### Added
 - Set up the project with Next.js and TypeScript.
 - Integrated Tailwind CSS for styling.
