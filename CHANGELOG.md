@@ -4,6 +4,10 @@ All notable changes to the server part of this project will be documented in thi
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [0.0.6] - 27-06-2024
+### Added
+- Quality and Equipment sectios are done 
+
 ## [0.0.5] - 27-06-2024
 ### Added
 - Services section done 

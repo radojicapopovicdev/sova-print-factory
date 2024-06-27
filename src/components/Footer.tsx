@@ -4,7 +4,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div>Footer</div>
+    <div id='footer' className='w-full h-[500px] bg-[#383839]  '></div>
   )
 }
 

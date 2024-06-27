@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React from "react";
 
-import X from "../assets/choice 4.png"
-import Checkmark from "../assets/choice 2.png"
+import X from "../assets/choice 4.png";
+import Checkmark from "../assets/choice 2.png";
 
 type Props = {};
 
@@ -46,11 +45,31 @@ const Choice = (props: Props) => {
           No positive impact and feedback from your customers
         </p>
         <div id="x">
-          <Image src={X} alt={""} className="absolute mt-[-190px] ml-[75px] "></Image>
-          <Image src={X} alt={""} className="absolute mt-[-150px] ml-[75px] "></Image>
-          <Image src={X} alt={""} className="absolute mt-[-110px] ml-[75px] "></Image>
-          <Image src={X} alt={""} className="absolute mt-[-70px] ml-[75px] "></Image>
-          <Image src={X} alt={""} className="absolute mt-[-30px] ml-[75px] "></Image>
+          <Image
+            src={X}
+            alt={""}
+            className="absolute mt-[-190px] ml-[75px] "
+          ></Image>
+          <Image
+            src={X}
+            alt={""}
+            className="absolute mt-[-150px] ml-[75px] "
+          ></Image>
+          <Image
+            src={X}
+            alt={""}
+            className="absolute mt-[-110px] ml-[75px] "
+          ></Image>
+          <Image
+            src={X}
+            alt={""}
+            className="absolute mt-[-70px] ml-[75px] "
+          ></Image>
+          <Image
+            src={X}
+            alt={""}
+            className="absolute mt-[-30px] ml-[75px] "
+          ></Image>
         </div>
       </div>
       <div id="under1" className="absolute mt-[] ml-[169.8px] flex ">
@@ -96,11 +115,31 @@ const Choice = (props: Props) => {
           We respect your time and don’t break the deadlines
         </p>
         <div id="checkmarks">
-          <Image src={Checkmark} alt={""} className="absolute mt-[-255px] ml-[75px] "></Image>
-          <Image src={Checkmark} alt={""} className="absolute mt-[-190px] ml-[75px] "></Image>
-          <Image src={Checkmark} alt={""} className="absolute mt-[-125px] ml-[75px] "></Image>
-          <Image src={Checkmark} alt={""} className="absolute mt-[-65px] ml-[75px] "></Image>
-          <Image src={Checkmark} alt={""} className="absolute mt-[-25px] ml-[75px] "></Image>
+          <Image
+            src={Checkmark}
+            alt={""}
+            className="absolute mt-[-255px] ml-[75px] "
+          ></Image>
+          <Image
+            src={Checkmark}
+            alt={""}
+            className="absolute mt-[-190px] ml-[75px] "
+          ></Image>
+          <Image
+            src={Checkmark}
+            alt={""}
+            className="absolute mt-[-125px] ml-[75px] "
+          ></Image>
+          <Image
+            src={Checkmark}
+            alt={""}
+            className="absolute mt-[-65px] ml-[75px] "
+          ></Image>
+          <Image
+            src={Checkmark}
+            alt={""}
+            className="absolute mt-[-25px] ml-[75px] "
+          ></Image>
         </div>
       </div>
       <div
