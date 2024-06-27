@@ -10,11 +10,19 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        'mobile': '480px',
+        'fullhd': '1920px',
+        'ultrawide': '3440px',
+      },
+      fontFamily: {
+        'heebo': ['Heebo', 'sans-serif'],
+      }
     },
   },
   plugins: [],
 };
+
 export default config;

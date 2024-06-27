@@ -4,6 +4,10 @@ All notable changes to the server part of this project will be documented in thi
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [0.0.2] - 27-06-2024
+### Added
+- Header component created
+
 ## [0.0.1] - 25-06-2024
 ### Added
 - Project sctructure | Basic structure for components folder
