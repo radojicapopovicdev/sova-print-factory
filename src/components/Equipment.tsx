@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import sliderPic from "../assets/textile-dyeing-factory-technical-process-manufacturing-colorful-fabrics.jpg";
+import sliderPic from "../assets/graphic-design-advertising-concept-large-format-plotter-close-up.jpg";
 
 type Props = {};
 
