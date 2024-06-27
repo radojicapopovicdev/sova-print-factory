@@ -4,9 +4,14 @@ All notable changes to the server part of this project will be documented in thi
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [0.0.5] - 27-06-2024
+### Added
+- Services section done 
+
 ## [0.0.4] - 27-06-2024
 ### Added
 - Choice section done
+
 ## [0.0.3] - 27-06-2024
 ### Added
 - Hero section done
