@@ -79,7 +79,7 @@ const Choice = (props: Props) => {
         </p>
         <div
           id="under1-button"
-          className="absolute w-[244px] h-[51px] bg-[#369600] mt-[830px] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex  cursor-pointer  "
+          className="absolute w-[244px] h-[51px] bg-[#369600] mt-[830px] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex  cursor-pointer text-[14px]  "
         >
           {" "}
           BOOK A CALL
@@ -152,7 +152,7 @@ const Choice = (props: Props) => {
         </p>
         <div
           id="under2-button"
-          className="absolute w-[244px] h-[51px] bg-[#F36F27] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex cursor-pointer   "
+          className="absolute w-[244px] h-[51px] bg-[#F36F27] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex cursor-pointer text-[14px]   "
         >
           CREATE ORDER
         </div>

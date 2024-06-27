@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
 
       <div
         id="button"
-        className="w-[244px] h-[60px] absolute border-white border-[1.3px] ml-[198.67px] mt-[433.67px] rounded-[25.33px] 
+        className="w-[244px] h-[60px] absolute border-white border-[1.33px] ml-[198.67px] mt-[433.67px] rounded-[25.33px] 
                flex items-center justify-center text-center text-[14px] cursor-pointer "
       >
         SHOW MORE

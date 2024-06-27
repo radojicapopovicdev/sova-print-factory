@@ -21,7 +21,7 @@ const Equipment = (props: Props) => {
       id="quality"
       className="w-full bg-white h-[700px] flex flex-col items-center overflow-hidden relative"
     >
-      <div className="flex-grow flex mt-[30px] justify-center">
+      <div className="flex-grow flex mt-[90px] justify-center">
         <p className="text-[#000000] absolute text-[25px] font-bold">
           Print quality also depends on the quality of selected products
         </p>
@@ -49,12 +49,12 @@ const Equipment = (props: Props) => {
         </button>
       </div>
 
-      <div id="slider" className="flex  space-x-4 pb-4 w-full">
+      <div id="slider" className="flex space-x-4 pb-4 w-full">
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(${offset}px)` }}
         >
-          <div className="min-w-[480px] flex-shrink-0 flex flex-col ">
+          <div className="min-w-[480px] flex-shrink-0 flex flex-col mt-[] ">
             <Image
               src={sliderPic}
               alt="Description of Image"

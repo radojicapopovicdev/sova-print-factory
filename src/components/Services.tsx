@@ -12,7 +12,7 @@ const Services = (props: Props) => {
       className="w-full h-[600px] flex bg-white font-heebo relative"
     >
       <div className="flex-grow flex justify-center">
-        <p className="absolute text-[#000000] text-[25px]">Printing Services</p>
+        <p className="absolute text-[#000000] text-[25px] font-bold">Printing Services</p>
       </div>
       <div
         id="pic1"
