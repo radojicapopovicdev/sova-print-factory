@@ -4,6 +4,10 @@ All notable changes to the server part of this project will be documented in thi
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
+## [0.0.8] - 30-06-2024
+### Added
+- Convert pixel units to viewport units for responsive design
+
 ## [0.0.7] - 28-06-2024
 ### Added
 - Footer component created

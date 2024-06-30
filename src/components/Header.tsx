@@ -13,29 +13,29 @@ const Header = (props: Props) => {
   return (
     <div
       id="header"
-      className="w-full bg-white h-[115px] flex items-start justify-between font-heebo text-[#E7E7E7] relative"
+      className="w-full bg-white h-[10.648vh] flex items-start justify-between font-heebo text-[#E7E7E7] relative"
     >
       <div
         id="left-container"
-        className="h-[36px] w-[868px] bg-[#3A383B] rounded-br-[18.67px] flex items-center z-10"
+        className="h-[3.333vh] w-[45.208vw] bg-[#3A383B] rounded-br-[1.729vh] flex items-center z-10"
       >
-        <a href="" className="text-[13px] pr-3 ml-[80px]">
+        <a href="" className="text-[1.204vh] pr-3 ml-[4.167vw]">
           Facebook -
         </a>
-        <a href="" className="text-[13px]">
+        <a href="" className="text-[1.204vh]">
           Instagram -
         </a>
-        <a href="" className="text-[13px]">
+        <a href="" className="text-[1.204vh]">
           Linkedin -
         </a>
-        <a href="" className="text-[13px]">
+        <a href="" className="text-[1.204vh]">
           Call Center: 0800300400
         </a>
       </div>
 
       <div
         id="nav-left "
-        className="text-[#1A1A1A] flex absolute mt-[68px] ml-[320px]  "
+        className="text-[#1A1A1A] flex absolute mt-[6.296vh] ml-[16.667vw]  "
       >
         <a href="" className="pr-5">
           Our Story
@@ -53,14 +53,14 @@ const Header = (props: Props) => {
 
       <div
         id="logo"
-        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[316px] h-[132px]"
+        className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[16.458vw] h-[12.222vh]"
       >
         <Image src={logo} alt="Logo" layout="fill" objectFit="contain" />
       </div>
 
       <div
         id="nav-right"
-        className="flex text-[#1A1A1A] absolute mt-[68px] ml-[1152px] "
+        className="flex text-[#1A1A1A] absolute mt-[6.296vh] ml-[60vw] "
       >
         <a href="" className="pr-5">
           SPF E-Card
@@ -78,20 +78,20 @@ const Header = (props: Props) => {
 
       <div
         id="search"
-        className="text-[#1A1A1A] flex absolute mt-[68px] ml-[1652px] w-300px  "
+        className="text-[#1A1A1A] flex absolute mt-[6.296vh] ml-[86.042vw]  "
       >
         <p className="text-[#1A1A1A] pl-5">EN</p>
         <Image
           src={DArrow}
           alt={"arrow-down"}
-          className=" pl-2 w-[25.5px]"
+          className=" pl-2 w-[1.328vw]"
         ></Image>
-        <Image src={Search} alt={"search-icon"} className="ml-[40px] "></Image>
+        <Image src={Search} alt={"search-icon"} className="ml-[2.083vw] "></Image>
       </div>
 
       <div
         id="right-container"
-        className="h-[36px] w-[868px] bg-[#3A383B] rounded-bl-[18.67px] z-10 flex items-center justify-center"
+        className="h-[3.333vh] w-[45.208vw] bg-[#3A383B] rounded-bl-[1.729vh] z-10 flex items-center justify-center"
       >
         <Image src={LArrow} alt={"arrow-left"} className="mr-5" />
         <a href="" className="text-white">

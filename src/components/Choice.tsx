@@ -7,16 +7,16 @@ type Props = {};
 
 const Choice = (props: Props) => {
   return (
-    <div className="w-full h-[1000px] bg-white font-heebo flex flex-col">
-      <div className="flex-grow flex mt-[60px] justify-center">
-        <p className="text-[#000000] absolute text-[25px] font-bold ">
+    <div className="w-full h-[92.593vh] bg-white font-heebo flex flex-col">
+      <div className="flex-grow flex mt-[5.556vh] justify-center">
+        <p className="text-[#000000] absolute text-[2.315vh] font-bold ">
           Choose your digital painting partner wisely
         </p>
-        <p className="text-[#000000] absolute mt-[40px] text-[16.5px]">
+        <p className="text-[#000000] absolute mt-[3.704vh] text-[1.528vh]">
           Always go for the uncompromising print quality, durability, and cost
           effectiveness.{" "}
         </p>
-        <p className="text-[#000000] absolute mt-[65px] w-[802.67px] text-center text-[16.5px] ">
+        <p className="text-[#000000] absolute mt-[6.019vh] w-[41.806vw] text-center text-[1.528vh] ">
           Rely on experienced digital printing wizards with strong business
           acumen and outstanding communication skills, who will work with you to
           solve your problems and help you achieve your goals.
@@ -24,62 +24,62 @@ const Choice = (props: Props) => {
       </div>
       <div
         id="container1"
-        className="absolute w-[851px] h-[470px] border-[2px] rounded-[70px] border-blue-600 ml-[82px] mt-[255px]  "
+        className="absolute w-[41.806vw] h-[43.519vh] border-[0.185vh] rounded-[6.481vh] border-blue-600 ml-[4.271vw] mt-[23.611vh]  "
       >
-        <p className="text-black text-[25px] mt-[60px] ml-[77px] font-bold">
+        <p className="text-black text-[2.315vh] mt-[5.556vh] ml-[7.13vh] font-bold">
           Problems with unreliable partners
         </p>
-        <p className="text-black text-[16.5px] mt-[39px] ml-[128px]">
+        <p className="text-black text-[1.528vh] mt-[3.611vh] ml-[6.667vw]">
           Poor communication and imprecisely gathered requirements.
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px]">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw]">
           Poor print quality on cheap prints
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px]">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw]">
           Repeated orders caused by errors, resulting in time and money losses
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px]">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw]">
           Late deliveries
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px]">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw]">
           No positive impact and feedback from your customers
         </p>
         <div id="x">
           <Image
             src={X}
             alt={""}
-            className="absolute mt-[-190px] ml-[75px] "
+            className="absolute mt-[-17.593vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={X}
             alt={""}
-            className="absolute mt-[-150px] ml-[75px] "
+            className="absolute mt-[-13.889vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={X}
             alt={""}
-            className="absolute mt-[-110px] ml-[75px] "
+            className="absolute mt-[-10.185vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={X}
             alt={""}
-            className="absolute mt-[-70px] ml-[75px] "
+            className="absolute mt-[-6.481vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={X}
             alt={""}
-            className="absolute mt-[-30px] ml-[75px] "
+            className="absolute mt-[-2.778vh] ml-[3.906vw] "
           ></Image>
         </div>
       </div>
-      <div id="under1" className="absolute mt-[] ml-[169.8px] flex ">
-        <p className="text-[#5A5A5A] w-[402.16px] mt-[830px] ">
+      <div id="under1" className="absolute mt-[] ml-[8.844vw] flex ">
+        <p className="text-[#5A5A5A] w-[20.946vw] mt-[76.852vh] ">
           Book a free consultation call. Tell us what you need and we’ll find
           the best solution for you.
         </p>
         <div
           id="under1-button"
-          className="absolute w-[244px] h-[51px] bg-[#369600] mt-[830px] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex  cursor-pointer text-[14px]  "
+          className="absolute w-[12.708vw] h-[4.722vh] bg-[#369600] mt-[76.852vh] ml-[22.396vw] rounded-[2.345vh] items-center justify-center text-center flex  cursor-pointer text-[1.296vh]  "
         >
           {" "}
           BOOK A CALL
@@ -87,72 +87,72 @@ const Choice = (props: Props) => {
       </div>
       <div
         id="container2"
-        className="absolute w-[851px] h-[470px] rounded-[70px] border-blue-600 ml-[985px] mt-[255px]"
+        className="absolute w-[44.323vw] h-[43.519vh] rounded-[6.481vh] border-blue-600 ml-[51.302vw] mt-[23.611vh]"
         style={{
           background:
             "linear-gradient(to right, #DE8EF1, #F5ADF6, #F6C6FA, #F6C6FA, #DBB0F7)",
         }}
       >
-        <p className="text-black text-[25px] mt-[60px] ml-[77px] font-bold  ">
+        <p className="text-black text-[2.315vh] mt-[5.556vh] ml-[4.01vw] font-bold  ">
           Solutions with Sova Print Factory
         </p>
-        <p className="text-black text-[16.5px] mt-[39px] ml-[128px] w-[466.58px]  ">
+        <p className="text-black text-[1.528vh] mt-[3.611vh] ml-[6.667vw] w-[24.301vw]  ">
           Clear, precise, and efficient communication in Serbian and English,
           resulting in precisely gathered requirements and scope
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px] w-[466.58px] ">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw] w-[24.301vw] ">
           Unmatched print quality, colorful, vivid, sharp, and perfectly
           positioned, but still cost-effective
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px] w-[466.58px] ">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw] w-[24.301vw] ">
           Our process eliminates errors. You’ll repeat your order only as a
           satisfied customer
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px] w-[466.58px] ">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw] w-[24.301vw] ">
           We respect your time and don’t break the deadlines
         </p>
-        <p className="text-black text-[16.5px] mt-[16px] ml-[128px] w-[466.58px] ">
+        <p className="text-black text-[1.528vh] mt-[1.481vh] ml-[6.667vw] w-[24.301vw] ">
           We respect your time and don’t break the deadlines
         </p>
         <div id="checkmarks">
           <Image
             src={Checkmark}
             alt={""}
-            className="absolute mt-[-255px] ml-[75px] "
+            className="absolute mt-[-23.611vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={Checkmark}
             alt={""}
-            className="absolute mt-[-190px] ml-[75px] "
+            className="absolute mt-[-17.593vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={Checkmark}
             alt={""}
-            className="absolute mt-[-125px] ml-[75px] "
+            className="absolute mt-[-11.574vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={Checkmark}
             alt={""}
-            className="absolute mt-[-65px] ml-[75px] "
+            className="absolute mt-[-6.019vh] ml-[3.906vw] "
           ></Image>
           <Image
             src={Checkmark}
             alt={""}
-            className="absolute mt-[-25px] ml-[75px] "
+            className="absolute mt-[-2.315vh] ml-[3.906vw] "
           ></Image>
         </div>
       </div>
       <div
-        className="absolute  ml-[1038.34px] border-[2px] border-red-50 mt-[830px] flex"
+        className="absolute  ml-[54.08vw] border-[0.185vh] border-red-50 mt-[76.852vh] flex"
         id="under2"
       >
-        <p className="text-[#5A5A5A] w-[402.16px] ">
+        <p className="text-[#5A5A5A] w-[20.946vw] ">
           If you are prepared, don’t waste time. Click and create your order. We
           have special surprise discounts and gifts for first time customers.
         </p>
         <div
           id="under2-button"
-          className="absolute w-[244px] h-[51px] bg-[#F36F27] ml-[430px] rounded-[25.33px] items-center justify-center text-center flex cursor-pointer text-[14px]   "
+          className="absolute w-[12.708vw] h-[4.722vh] bg-[#F36F27] ml-[22.396vw] rounded-[2.345vh] items-center justify-center text-center flex cursor-pointer text-[1.296vh]   "
         >
           CREATE ORDER
         </div>
